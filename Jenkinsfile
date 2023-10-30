@@ -3,7 +3,7 @@ pipeline {
     
     environment {
         DOCKERHUB_CREDS = credentials('dockerhub-credentials')
-        REPOSITORY = "nelsonyaccuzzi/web-go"
+        REPOSITORY = "https://github.com/ferdinand528/devops"
     }
 
     stages {
